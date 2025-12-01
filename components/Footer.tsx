@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{content.nav.contact}</h3>
             <ul className="space-y-2 text-gray-400">
-              <li className="flex items-center gap-2"><MapPin size={18} /> Rua da Esperança, 123, Lisboa</li>
+              <li className="flex items-center gap-2"><MapPin size={18} /> Espaco a anunciar - Castelo Branco </li>
               <li className="flex items-center gap-2"><Phone size={18} /> +351 210 000 000</li>
               <li className="flex items-center gap-2"><Mail size={18} /> contacto@idosoativo.pt</li>
             </ul>

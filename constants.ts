@@ -43,8 +43,8 @@ export const TEAM_DATA: TeamMember[] = [
     image: "https://picsum.photos/id/91/300/300"
   },
   {
-    name: "Ana Costa",
-    role: "Psicóloga",
+    name: "Anuncio em Breve",
+    role: "Fisioterapeuta",
     image: "https://picsum.photos/id/338/300/300"
   }
 ];
