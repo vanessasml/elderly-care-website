@@ -4,28 +4,28 @@ export const ACTIVITIES_DATA: Activity[] = [
   {
     id: 1,
     title: "Workshop de Pintura Criativa",
-    date: "2023-10-15",
+    date: "2026",
     description: "Uma tarde cheia de cores e expressão artística onde os nossos idosos exploraram a sua criatividade através da aguarela.",
     imageUrl: "https://picsum.photos/id/1015/800/600"
   },
   {
     id: 2,
     title: "Caminhada no Parque da Cidade",
-    date: "2023-10-22",
+    date: "2026",
     description: "Promoção da saúde física e convívio social com uma caminhada leve, seguida de um piquenique saudável.",
     imageUrl: "https://picsum.photos/id/1084/800/600"
   },
   {
     id: 3,
     title: "Aula de Inclusão Digital",
-    date: "2023-11-05",
+    date: "2026",
     description: "Ajudando a comunidade a conectar-se com familiares distantes através do uso de tablets e smartphones.",
     imageUrl: "https://picsum.photos/id/3/800/600"
   },
   {
     id: 4,
     title: "Baile de Outono",
-    date: "2023-11-20",
+    date: "2026",
     description: "Música, dança e muita alegria marcaram o nosso tradicional baile de outono.",
     imageUrl: "https://picsum.photos/id/129/800/600"
   }
@@ -33,12 +33,12 @@ export const ACTIVITIES_DATA: Activity[] = [
 
 export const TEAM_DATA: TeamMember[] = [
   {
-    name: "Maria Silva",
-    role: "Diretora Geral",
+    name: "Fernanda Pinheiro",
+    role: "Assistente Social e Diretora Geral",
     image: "https://picsum.photos/id/64/300/300"
   },
   {
-    name: "João Santos",
+    name: "Por preencher",
     role: "Coordenador de Atividades",
     image: "https://picsum.photos/id/91/300/300"
   },
@@ -50,10 +50,10 @@ export const TEAM_DATA: TeamMember[] = [
 ];
 
 export const PARTNERS_DATA: Partner[] = [
-  { name: "Câmara Municipal", website: "#" },
-  { name: "Farmácia Central", website: "#" },
-  { name: "Supermercados Bio", website: "#" },
-  { name: "Clínica de Fisioterapia Bem-Estar", website: "#" }
+  { name: "Câmara Municipal de Castelo Branco", website: "#" },
+  { name: "Anuncio em Breve", website: "#" },
+  { name: "Anuncio em Breve", website: "#" },
+  { name: "Anuncio em Breve", website: "#" }
 ];
 
 export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
@@ -70,8 +70,8 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
       heroSubtitle: "Promovemos a qualidade de vida, autonomia e integração social dos idosos através de atividades e apoio comunitário.",
       cta: "Junte-se a Nós",
       featuresTitle: "O Que Fazemos",
-      feature1Title: "Apoio Domiciliário",
-      feature1Desc: "Cuidados personalizados no conforto do lar, garantindo bem-estar e segurança.",
+      feature1Title: "Inclusão Digital",
+      feature1Desc: "Atividades para ajudar os idosos a conectarem-se com a tecnologia e o mundo digital.",
       feature2Title: "Atividades Socioculturais",
       feature2Desc: "Workshops, passeios e eventos para combater o isolamento e promover a amizade.",
       feature3Title: "Saúde e Movimento",
@@ -121,12 +121,12 @@ export const TRANSLATIONS: Record<'pt' | 'en', Content> = {
       contact: "Contact",
     },
     home: {
-      heroTitle: "Active and Happy Aging",
+      heroTitle: "Active and Happy Aging in Place",
       heroSubtitle: "We promote quality of life, autonomy, and social integration for the elderly through activities and community support.",
       cta: "Join Us",
       featuresTitle: "What We Do",
-      feature1Title: "Home Care Support",
-      feature1Desc: "Personalized care in the comfort of home, ensuring well-being and safety.",
+      feature1Title: "Digital Inclusion",
+      feature1Desc: "Activities to help the elderly connect with technology and the digital world.",
       feature2Title: "Sociocultural Activities",
       feature2Desc: "Workshops, tours, and events to combat isolation and promote friendship.",
       feature3Title: "Health & Movement",
