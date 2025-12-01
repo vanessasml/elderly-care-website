@@ -20,7 +20,7 @@ export const ACTIVITIES_DATA: Activity[] = [
     title: "Workshop de Costura",
     date: "2026",
     description: "Uma tarde dedicada à arte da costura, onde os nossos idosos aprenderam novas técnicas e criaram peças únicas.",
-    imageUrl: "https://picsum.photos/id/284/2048/1365"
+    imageUrl: "https://picsum.photos/id/90/3000/1992"
   },
   {
     id: 4,
